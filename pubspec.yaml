@@ -1,0 +1,27 @@
+name: bt_generics_flutter
+description: "Generic flutter module."
+version: 0.0.1
+homepage: none
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ### Logical
+  flutter_modular: ^6.3.2
+
+  ### Visual
+  flutter_svg: ^2.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
