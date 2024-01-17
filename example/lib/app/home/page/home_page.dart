@@ -20,21 +20,35 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    final ColorScheme colors = Theme.of(context).colorScheme;
+
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
+        centerTitle: true,
+        title: Text(
+          widget.title,
+          style: const TextStyle(
+            color: Color(0xFFFFF2EB),
+          ),
+        ),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: TextStyle(
+                color: colors.secondary,
+                fontSize: 48,
+              ),
+            ),
+            Text(
+              'You have pushed the button this many times:',
+              style: TextStyle(
+                color: colors.onBackground,
+                fontSize: 24,
+              ),
             ),
           ],
         ),
@@ -42,6 +56,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
+        hoverColor: colors.secondary,
         child: const Icon(Icons.add),
       ),
     );

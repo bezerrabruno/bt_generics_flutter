@@ -2,7 +2,6 @@
 
 import 'package:app/app/home/home_module.dart';
 import 'package:bt_generics_flutter/main.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class AppModule extends Module {
@@ -11,11 +10,11 @@ class AppModule extends Module {
     r.module(
       '/',
       module: SplashModule(
-        color: Colors.primaries.last,
-        logo: 'assets/logo-primary.svg',
-        route: '/home/',
-        time: const Duration(seconds: 5),
-        action: () => print('Logicando'),
+        SplashModel(
+          logo: 'assets/logo-primary.svg',
+          route: '/home/',
+          action: () => print('Logicando'),
+        ),
       ),
     );
 

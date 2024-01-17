@@ -1,25 +1,13 @@
+import 'package:bt_generics_flutter/core/splash/models/splash_model.dart';
 import 'package:bt_generics_flutter/modules/splash/controllers/splash_controller.dart';
 import 'package:bt_generics_flutter/modules/splash/pages/splash_page.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-/// Modulo Splash, logo and route requireds.
+/// Modulo Splash, model requireds.
 class SplashModule extends Module {
-  final Color? color;
-  final String logo;
+  final SplashModel model;
 
-  final String route;
-  final Duration? time;
-
-  final Function? action;
-
-  SplashModule({
-    this.color,
-    required this.logo,
-    required this.route,
-    this.time,
-    this.action,
-  });
+  SplashModule(this.model);
 
   @override
   void binds(Injector i) {
@@ -33,12 +21,8 @@ class SplashModule extends Module {
     r.child(
       '/',
       child: (_) => SplashPage(
+        model,
         Modular.get<SplashController>(),
-        logo: logo,
-        route: route,
-        color: color,
-        time: time,
-        action: action,
       ),
     );
 
