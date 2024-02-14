@@ -1,39 +1,42 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# BT Generics v0.3.2
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+Pacote desenvolvido para tornar mais eficiente o desenvolvimento de pocs e projetos de estudo.
+Com modulos praticos e faceis de serem ultilizados.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Principais Recursos:
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- **Splash**: Modulo de apresentação inicial, 
+capaz de apresentar logo da empresa, e carregar configurações planejadas.
 
-## Features
+- **Login**: Com todas as funcionalidades de um login, até mesmo um login mocado,
+o modulo de login é capaz de oferecer todas as funcionalidades esperadas para um login. (Em breve)
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Register**: Com todas as funcionalidades de um cadastro, modular,
+permite o desenvolvedor escolher explicitamente como e quais serão as etapas de cadastro. (Em breve)
 
-## Getting started
+- **Home**: Modulo com simples interface envolta de um grid view para facil associação de rotas em torno de cards. (Em breve)
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- **Configs**: O pacote oferece opções de personalização avançadas,
+permitindo que os desenvolvedores ajustem as cores e outras configurações de acordo com suas preferências individuais. (Em breve)
 
-## Usage
+## Benefícios:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+- **Eficiência**: Economiza tempo e esforço dos desenvolvedores.
 
-```dart
-const like = 'sample';
-```
+- **Praticidade**: Simplifica a gestão de aplicativos, gerindo todos os principais recursos basicos em um só lugar.
 
-## Additional information
+## Tecnologias Utilizadas:
+Flutter para desenvolvimento(Android e IOS).
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## Como Usar:
+
+(Em breve)
+
+## Exemplos:
+
+(Em breve)
+
+## Contato:
+
+Para perguntas, feedback ou suporte, entre em contato conosco em bmb.bezerra0@gmail.com
+Para saber mais entre em https://bmb-portfolio.dev
