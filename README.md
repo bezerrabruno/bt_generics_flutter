@@ -1,4 +1,4 @@
-# BT Generics v0.3.2
+# BT Generics v0.3.1
 
 Pacote desenvolvido para tornar mais eficiente o desenvolvimento de pocs e projetos de estudo.
 Com modulos praticos e faceis de serem ultilizados.
